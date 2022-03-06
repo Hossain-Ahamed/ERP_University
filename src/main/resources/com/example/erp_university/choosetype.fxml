@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.erp_university.Choosetype"
+            prefHeight="600.0" prefWidth="900.0">
+      <children>
+           <Button fx:id="Admin_Button" layoutX="335.0" layoutY="222.0" mnemonicParsing="false" onAction="#Admin_Button_Click" prefHeight="44.0" prefWidth="138.0" text="ADMIN">
+              <font>
+                 <Font size="17.0" />
+              </font>
+           </Button>
+           <Button fx:id="Teacher_Button" layoutX="335.0" layoutY="335.0" mnemonicParsing="false" onAction="#Teacher_button_Click" prefHeight="44.0" prefWidth="138.0" text="Teacher">
+              <font>
+                 <Font size="17.0" />
+              </font>
+           </Button>
+           <Button fx:id="Student_Button" layoutX="335.0" layoutY="448.0" mnemonicParsing="false" onAction="#Student_Button_Click" prefHeight="44.0" prefWidth="138.0" text="Student">
+              <font>
+                 <Font size="17.0" />
+              </font>
+           </Button>
+           <Label fx:id="Msg_Lable" alignment="CENTER" layoutX="268.0" layoutY="130.0" prefHeight="37.0" prefWidth="273.0" text="Identify Yourself" textFill="#1498ba">
+              <font>
+                 <Font size="29.0" />
+              </font>
+           </Label>
+        </children>
+</AnchorPane>

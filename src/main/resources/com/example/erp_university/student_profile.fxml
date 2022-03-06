@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erp_university.StudentProfile">
+<children>
+      <Label layoutX="33.0" layoutY="43.0" prefHeight="33.0" prefWidth="110.0" text="Name :">
+          <font>
+              <Font size="14.0" />
+          </font>
+      </Label>
+      <Label fx:id="name" layoutX="109.0" layoutY="43.0" prefHeight="33.0" prefWidth="372.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="203.0" prefHeight="33.0" prefWidth="36.0" text="ID :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="ID" layoutX="69.0" layoutY="203.0" prefHeight="33.0" prefWidth="179.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="248.0" layoutY="203.0" prefHeight="33.0" prefWidth="141.0" text="Registration Number :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="reg_num" layoutX="392.0" layoutY="203.0" prefHeight="33.0" prefWidth="179.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="250.0" prefHeight="33.0" prefWidth="51.0" text="Batch :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="batch" layoutX="85.0" layoutY="250.0" prefHeight="33.0" prefWidth="163.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="248.0" layoutY="250.0" prefHeight="33.0" prefWidth="141.0" text="Department Name :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="dept" layoutX="392.0" layoutY="250.0" prefHeight="33.0" prefWidth="179.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="293.0" prefHeight="33.0" prefWidth="94.0" text="Date of Brith :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="dob" layoutX="146.0" layoutY="293.0" prefHeight="33.0" prefWidth="335.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="343.0" prefHeight="33.0" prefWidth="64.0" text="Gender :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="gender" layoutX="96.0" layoutY="343.0" prefHeight="33.0" prefWidth="152.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="248.0" layoutY="343.0" prefHeight="33.0" prefWidth="141.0" text="Phone Number :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="phone_number" layoutX="392.0" layoutY="343.0" prefHeight="33.0" prefWidth="179.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="388.0" prefHeight="33.0" prefWidth="73.0" text="Address :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="address" layoutX="109.0" layoutY="388.0" prefHeight="33.0" prefWidth="372.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="85.0" prefHeight="33.0" prefWidth="94.0" text="Father Name :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="father_name" layoutX="127.0" layoutY="85.0" prefHeight="33.0" prefWidth="354.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="131.0" prefHeight="33.0" prefWidth="94.0" text="Mother Name :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="mother_name" layoutX="134.0" layoutY="131.0" prefHeight="33.0" prefWidth="354.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

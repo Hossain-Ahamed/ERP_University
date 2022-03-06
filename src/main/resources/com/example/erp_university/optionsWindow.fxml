@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erp_university.OptionsWindow">
+   <children>
+      <BorderPane fx:id="userborderpane" prefHeight="600.0" prefWidth="900.0">
+         <left>
+            <VBox prefHeight="600.0" prefWidth="210.0" style="-fx-background-color: #d0f7ba;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="138.0" text="STUDENT" textFill="#b20000">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="42.0" right="12.0" top="4.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#profile" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: ##ffffff;" text="Profile">
+                     <VBox.margin>
+                        <Insets left="5.0" top="50.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#messages" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: ##ffffff;" text="Massage">
+                     <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#course" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: ##ffffff;" text="Course Entry">
+                     <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#courseView" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: ##ffffff;" text="Course View">
+                     <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#account" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: ##ffffff;" text="Account ❌">
+                     <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#classroom" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: ##ffffff;" text="Classroom ❌">
+                     <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#signout" prefHeight="40.0" prefWidth="190.0" style="-fx-background-color: #f04a37;" text="Sign Out">
+                     <VBox.margin>
+                        <Insets left="5.0" top="17.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

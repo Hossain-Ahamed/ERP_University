@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Sign_in_button" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erp_university.login">
+   <children>
+      <Label layoutX="313.0" layoutY="270.0" prefHeight="17.0" prefWidth="67.0" style="-fx-background-color: #acd4f2;" text="    User ID" />
+      <Label layoutX="313.0" layoutY="317.0" prefHeight="17.0" prefWidth="67.0" style="-fx-background-color: #acd4f2;" text="  Password" />
+      <TextField fx:id="userID_field" layoutX="414.0" layoutY="266.0" />
+      <PasswordField fx:id="pass_field" layoutX="414.0" layoutY="313.0" />
+      <Button layoutX="410.0" layoutY="377.0" mnemonicParsing="false" onAction="#sign_in_button" onKeyPressed="#keypress" prefHeight="25.0" prefWidth="143.0" style="-fx-background-color: #8cfc03;" text="Sign In" />
+      <Text fill="#70bedd" layoutX="199.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RANADA PRASAD SHAHA UNIVERSITY (ERP)" wrappingWidth="533.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Text>
+      <TextField fx:id="errormsg" layoutX="460.0" layoutY="523.0" prefHeight="25.0" prefWidth="276.0" style="-fx-background-color: transparent;" />
+   </children>
+</AnchorPane>

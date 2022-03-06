@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erp_university.AdminOptionsNotice">
+
+   <children>
+       <Label layoutX="35.0" layoutY="31.0" prefHeight="33.0" prefWidth="127.0" text="For Teacher :">
+          <font>
+             <Font name="System Bold" size="17.0" />
+          </font>
+       </Label>
+       <Label layoutX="35.0" layoutY="300.0" prefHeight="33.0" prefWidth="127.0" text="For Student :">
+          <font>
+             <Font name="System Bold" size="17.0" />
+          </font>
+       </Label>
+       <TextArea fx:id="teacher_notice" layoutX="35.0" layoutY="72.0" prefHeight="171.0" prefWidth="525.0" />
+       <TextArea fx:id="student_notice" layoutX="35.0" layoutY="345.0" prefHeight="171.0" prefWidth="525.0" />
+       <Button layoutX="250.0" layoutY="261.0" mnemonicParsing="false" onAction="#teacher_notice_upload" prefHeight="33.0" prefWidth="90.0" text="Upload" />
+       <Button layoutX="250.0" layoutY="529.0" mnemonicParsing="false" onAction="#student_notice_upload" prefHeight="33.0" prefWidth="90.0" text="Upload" />
+      <Label fx:id="t_msg" layoutX="362.0" layoutY="261.0" prefHeight="17.0" prefWidth="134.0" />
+      <Label fx:id="s_msg" layoutX="389.0" layoutY="537.0" prefHeight="17.0" prefWidth="144.0" />
+    </children>
+
+</AnchorPane>
