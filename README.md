@@ -1,15 +1,13 @@
 # ERP_University
-Mini Project on java
+ A simple  project about a university management system
 
-- A simple  project about a university management system
-
-##Things you'll need:
+## Things you'll need:
 
 * [**Java Development Kit**](https://www.oracle.com/java/technologies/downloads)
 * [**JavaFX SDK**](https://gluonhq.com/products/javafx/)
 * [**XAMPP -MYSQL**](https://www.apachefriends.org/download.html)
  
-## Functionality
+ ## Functionality
   - Student Assign
   - Teacher assign
   - Enroll students for courses
@@ -19,11 +17,11 @@ Mini Project on java
   - Teacher
   - Student
 
- ## Written in
+## Written in
 
  * JAVA
  
- ## Database : 
+## Database : 
  
  * MYSQL 
 
