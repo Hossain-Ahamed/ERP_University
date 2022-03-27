@@ -20,17 +20,18 @@ Mini Project on java
   - Student
 
  ## Written in
- ```
-  JAVA
-  ```
+
+ * JAVA
+ 
  ## Database : 
--
-``` MYSQL 
-```
+ 
+ * MYSQL 
+
 
 ## Uses :
 > University students can be assigned in individual courses 
 > Where teacher  will be assigned before the students
-> > Student can choose their offered course
-> > Teachers can add the marks of their students
+>  Student can choose their offered course
+>  Teachers can add the marks of their students
+>
  
